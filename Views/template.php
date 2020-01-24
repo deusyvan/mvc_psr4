@@ -3,7 +3,7 @@
         <title>Site</title>
         <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/assets/css/template.css" />
         <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery-3.4.1.min.js" ></script>
-        <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/script.js" ></script>
+        
     </head>
     
     <body>
@@ -18,4 +18,5 @@
             <?php $this->loadViewInTemplate($viewName, $viewData); ?>
     	</div>
     </body>
+    <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/javascript.js" ></script>
 </html>
